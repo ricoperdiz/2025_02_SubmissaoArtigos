@@ -51,6 +51,10 @@ li::marker {
   font-size: 1.5em;
 }
 
+.biggger {
+  font-size: 1.6em;
+}
+
 .huge {
   font-size: 2em;
 }
