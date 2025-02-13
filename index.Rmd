@@ -137,8 +137,11 @@ xaringanExtra::style_share_again(
 )
 ```
 
-```{r broadcast, echo=FALSE}
-xaringanExtra::use_broadcast()
+```{r}
+#| label: broadcast
+#| include: false
+#| eval: false
+# xaringanExtra::use_broadcast()
 ```
 
 ```{r}
