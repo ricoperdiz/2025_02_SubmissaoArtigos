@@ -120,13 +120,21 @@ style_duo(
 ```{r}
 #| label: xaringanExtra
 #| include: false
-xaringanExtra::use_xaringan_extra(c("tachyons"))
+xaringanExtra::use_xaringan_extra(c("tile_view","tachyons"))
 ```
 
 ```{r}
 #| label: xaringanExtra-share-again
 #| include: false
-# xaringanExtra::use_share_again()
+xaringanExtra::use_share_again()
+```
+
+```{r}
+#| label: style-share-again
+#| include: false
+xaringanExtra::style_share_again(
+  share_buttons = c("twitter", "facebook","linkedin", "reddit")
+)
 ```
 
 ```{r}
@@ -162,7 +170,7 @@ pensar <-
 
 ```{r}
 #| label: metathis
-#| eval: false
+#| eval: true
 #| include: false
 meta() |>
   meta_name("github-repo" = "ricoperdiz/2025_02_SubmissaoArtigos") |>
@@ -174,9 +182,9 @@ meta() |>
       "e ofertada no Programa de Pós-graduação em Recursos Naturais (PRONAT) da Universidade Federal de Roraima."
     ),
     url = "https://ricoperdiz.github.io/2025_02_SubmissaoArtigos/",
-    image = "https://github.com/ricoperdiz/2025_02_SubmissaoArtigos/blob/main/images/slide_social.png?raw=true",
+    image = "https://github.com/ricoperdiz/2025_02_SubmissaoArtigos/blob/main/img/slide_social.png?raw=true",
     image_alt = paste(
-      "xxx"
+      "Imagem de abertura da apresentação, mostrando cientistas escrevendo textos, mexendo em livros. Há imagens de livros, ADN e um computador na figura."
     ),
     og_type = "website",
     og_author = "R. O. Perdiz",
