@@ -654,7 +654,7 @@ include_graphics("img/jordan.gif")
 
 ????
 
-XXX inserir o link do gif
+Crédito da imagem: [giphy.com](https://giphy.com/gifs/afterthis-swag-gol-3oEdv719FUm1eomOAM)
 
 ---
 
