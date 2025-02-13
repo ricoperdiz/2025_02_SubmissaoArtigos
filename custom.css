@@ -1,0 +1,120 @@
+ul {
+  list-style: none;
+}
+
+li::marker {
+  content: "• ";
+  color: #EFBE43;
+}
+
+/* Tamanho de fonte */
+
+.extra-fat {
+  color: var(--color-fat);
+  font-size: 900%;
+  font-weight:700;
+}
+
+.mid-fat {
+  color: var(--color-fat);
+  font-size: 600%;
+  font-weight:700;
+}
+
+.fat {
+  color: var(--color-fat);
+  font-size: 250%;
+  font-weight:700;
+}
+
+.smallest {
+  font-size: 0.5em;
+}
+
+.smaller {
+  font-size: 0.75em;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+.smallish {
+  font-size: 0.9em;
+}
+
+.big {
+  font-size: 1.25em;
+}
+
+.bigger {
+  font-size: 1.5em;
+}
+
+.huge {
+  font-size: 2em;
+}
+
+/* posicoes */
+
+
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.invfont {
+    color: #272822;
+}
+
+
+.footnote2 {
+  position: absolute;
+  bottom: 1em;
+  padding-right: 4em;
+  font-size: 70%;
+/*  font-size: 0.8em; */
+}
+
+.footnotemid {
+  position: relative;
+  bottom: 1em;
+  padding-right: 4em;
+  font-size: 80%;
+/*  float: right; */
+}
+
+.left-column2 {
+  color: #777;
+  width: 40%;
+  height: 92%;
+  float: left;
+}
+.left-column2 h2:last-of-type, .left-column2 h3:last-child {
+  color: #000;
+}
+.right-column2 {
+  width: 55%;
+  float: right;
+  padding-top: 1em;
+}
+
+.remark-slide-number {
+  bottom: 18px;
+  color: #1c5253;
+  opacity: 0.5;
+  position: absolute;
+  right: 20px;
+  font-size: 0.9em;
+}
+
+img.circle {
+  border-radius:50%;
+}
+
+
