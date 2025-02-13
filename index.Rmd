@@ -137,6 +137,10 @@ xaringanExtra::style_share_again(
 )
 ```
 
+```{r broadcast, echo=FALSE}
+xaringanExtra::use_broadcast()
+```
+
 ```{r}
 #| label: emoji
 #| include: false
@@ -216,25 +220,28 @@ background-image: url(img/slide_abertura.png)
 background-size: contain
 background-color: "#EFBE43"
 
-.left-column[
 
-.b.bg-yellow[
-.biggger.black[Submissão de<br>artigos<br>científicos]
+
+<!-- .big.bg-light-blue.b--dark-blue.ba.bw3.br3.shadow-5.ph5.mt5 -->
+
+.left[
+.bg-yellow.ba.bw3.br4.light-yellow.ph2.mt5.w-25[
+.black[
+.b.f2[Submissão<br>de artigos<br>científicos]
 ]
+]
+]
+.left[
 
-<br>
-<br>
-.b.bg-yellow[
-.smallish.black[
+.black.bg-yellow.ba.bw3.br4.light-yellow.ph2.mt5.w-20[
+
+.black.b.f3-ns.fw9-ns[
 Ricardo Perdiz
-]]
-
-.b.bg-yellow[
-.smallish.black[
-PRONAT UFRR<br>12 Fev 2025
-]]
 ]
-
+.black.f4-m[
+.i[PRONAT UFRR]<br>12 Fev 2025
+]
+]]
 ???
 
 Crédito da imagem: [Gemini](https://gemini.google.com)
@@ -496,12 +503,16 @@ background-size: 500px
 ## Identificar periódicos<br>relevantes para sua pesquisa
 
 --
+
 ### Escopo
 
 --
 
 ### Fator de impacto
 
+--
+
+### .b.roxo.fw7[Acesso aberto]
 --
 
 ### Normas
@@ -640,6 +651,10 @@ include_graphics("img/jordan.gif")
 ```
 
 ]
+
+????
+
+XXX inserir o link do gif
 
 ---
 
